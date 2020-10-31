@@ -6,6 +6,6 @@ VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-ba
 
 The Compound score is a metric that calculates the sum of all the lexicon ratings which have been normalized between -1(most extreme negative) and +1 (most extreme positive).
 
--positive sentiment : (compound score >= 0.05)
--neutral sentiment : (compound score > -0.05) and (compound score < 0.05)
--negative sentiment : (compound score <= -0.05)
+-positive sentiment : (compound score >= 0.05)<br>
+-neutral sentiment : (compound score > -0.05) and (compound score < 0.05) <br>
+-negative sentiment : (compound score <= -0.05)<br>
