@@ -1,6 +1,6 @@
 # PresidentialElection
 
-**VADER Sentiment Analysis :**<br>
+**1.VADER Sentiment Analysis :**<br>
 VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. VADER uses a combination of A sentiment lexicon is a list of lexical features (e.g., words) which are generally labeled according to their semantic orientation as either positive or negative. VADER not only tells about the Positivity and Negativity score but also tells us about how positive or negative a sentiment is. <br>
 
 
@@ -11,8 +11,8 @@ The Compound score is a metric that calculates the sum of all the lexicon rating
 -negative sentiment : (compound score <= -0.05)<br>
 
 
-**Multinomial Naive Bayes :**<br>
-Theframework of this sentiment analysis project <br>
+**2.Multinomial Naive Bayes :**<br>
+The framework of this sentiment analysis project <br>
 It contains fourmodules as follows:<br>
 ● Data Preprocessing <br>
 ● TF-IDF Vectorization <br>
