@@ -21,7 +21,7 @@ It contains fourmodules as follows:<br>
 
 We compute the TF-IDF values for all the words in the tweets in the training as well the testing set. The TFIDF Vectorizer outputs a sparse matrix where each row corresponds to the index of particular tweet and each column corresponds to the index  of a word in that tweet with that word’s TF-IDF value stored that the specific row and column. We consider unigrams and bigrams of different words in each tweet which provides us with better understanding of the sentiment. The matrix of the training set is given as input to the classifier along with the sentiment classification of each tweet.The matrix of the testing set is then used to predict the sentiment classification.<br>
 
-**1.BERT :**<br>
+**3.BERT :**<br>
 **BERT** stands for **Bidirectional Encoder Representations from Transformers**<br>
 ● Bidirectional - to understand the text you’re looking you’ll have to look back (at the previous words) and forward (at the next words)<br>
 ● Transformers -  Transformer model. The Transformer reads entire sequences of tokens at once. In a sense, the model is non-directional, while LSTMs read sequentially (left-to-right or right-to-left). The attention mechanism allows for learning contextual relations between words.<br>
