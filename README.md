@@ -20,3 +20,6 @@ It contains fourmodules as follows:<br>
 ● Prediction <br>
 
 We compute the TF-IDF values for all the words in the tweets in the training as well the testing set. The TFIDF Vectorizer outputs a sparse matrix where each row corresponds to the index of particular tweet and each column corresponds to the index  of a word in that tweet with that word’s TF-IDF value stored that the specific row and column. We consider unigrams and bigrams of different words in each tweet which provides us with better understanding of the sentiment. The matrix of the training set is given as input to the classifier along with the sentiment classification of each tweet.The matrix of the testing set is then used to predict the sentiment classification.<br>
+
+**1.BERT :**<br>
+**BERT** stands for **Bidirectional Encoder Representations from Transformers**<br>
