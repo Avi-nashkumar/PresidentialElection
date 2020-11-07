@@ -23,3 +23,6 @@ We compute the TF-IDF values for all the words in the tweets in the training as 
 
 **1.BERT :**<br>
 **BERT** stands for **Bidirectional Encoder Representations from Transformers**<br>
+● Bidirectional - to understand the text you’re looking you’ll have to look back (at the previous words) and forward (at the next words)<br>
+● Transformers -  Transformer model. The Transformer reads entire sequences of tokens at once. In a sense, the model is non-directional, while LSTMs read sequentially (left-to-right or right-to-left). The attention mechanism allows for learning contextual relations between words.<br>
+● (Pre-trained) contextualized word embeddings - The ELMO paper introduced a way to encode words based on their meaning/context. Nails has multiple meanings - fingernails and     metal nails.<br>
